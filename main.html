@@ -8,7 +8,97 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    <meta charset="UTF-8">
+  <title>My Favorite Movie</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #ddd;
+      padding: 10px;
+    }
+    
+    section {
+      margin: 20px;
+    }
+    
+    aside {
+      float: right;
+      margin: 20px;
+      padding: 10px;
+      background-color: #eee;
+    }
+    
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Favorite Movie</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#actor">Actors</a></li>
+      <li><a href="#quote">Quotes</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="plot">
+      <h2>Plot Summary</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu elit libero. Sed sodales, magna sit amet ultricies faucibus, magna urna ultricies enim, vel feugiat dolor lacus ut quam.</p>
+    </section>
+    
+    <section id="actor">
+      <h2>Actors</h2>
+      <ul>
+        <li>Actor 1</li>
+        <li>Actor 2</li>
+        <li>Actor 3</li>
+      </ul>
+    </section>
+    
+    <section id="quote">
+      <h2>Favorite Quotes</h2>
+      <ul>
+        <li>"Quote 1"</li>
+        <li>"Quote 2"</li>
+        <li>"Quote 3"</li>
+      </ul>
+    </section>
+    
+    <aside>
+      <p>IMDb rating: 8.5</p>
+      <p>Release date: January 1, 2022</p>
+    </aside>
+  </main>
+  
+  <footer>
+    <p>Produced by: John Doe</p>
+  </footer>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
